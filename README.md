@@ -42,20 +42,27 @@ This application is designed to manage tutorials in a database. It features two 
    git clone https://github.com/your-repository/tutorial-management-app.git
    cd tutorial-management-app
 2. **Build the project**:
-  If using CMake:
-  mkdir build
-  cd build
-  cmake ..
-  make
-3.  **Run the application**:
-./tutorial_management_app
+   - If using CMake:
+     ```bash
+     mkdir build
+     cd build
+     cmake ..
+     make
+     ```
+
+3. **Run the application**:
+   ```bash
+   ./tutorial_management_app
 
 4. **Choose a mode**:
- -Select either Administrator or User mode on startup.
+ - Select either Administrator or User mode on startup.
+   
 **Administrator Operations**:
 Add, delete, or update tutorials in the database.
+
 **User Operations**:
 Create, edit, and save your watchlist.
+
 **File Formats**
 CSV: Each tutorial is stored on one line with attributes separated by commas.
 HTML: Tutorials are displayed in a table, with each row representing a tutorial.
