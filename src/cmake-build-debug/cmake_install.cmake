@@ -1,4 +1,4 @@
-# Install script for directory: /Users/maraielciu/Desktop/project-oop/oop-a10-maraielciu1
+# Install script for directory: /Users/maraielciu/Desktop/Tutorial_management_app/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/maraielciu/Desktop/project-oop/oop-a10-maraielciu1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/maraielciu/Desktop/Tutorial_management_app/src/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

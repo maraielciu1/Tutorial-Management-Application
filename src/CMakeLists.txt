@@ -68,6 +68,8 @@ add_executable(oop-a10-maraielciu1
         GUI/WatchListModel.h
         GUI/WatchListWindow.cpp
         GUI/WatchListWindow.h
+        Repository/DBRepo.h
+        Repository/DBRepo.cpp
 )
 
 target_link_libraries(oop-a10-maraielciu1 Qt::Core)
